@@ -11,9 +11,7 @@ export default function BottomTab() {
       {routes.map((item, index) => (
         <Link
           className={`${index == 0 && 'bg-primary-100'} p-1 ${
-            (index == 0) == item.name
-              ? 'text-primary-200'
-              : 'text-zinc-400'
+            index == 0 ? 'text-primary-200' : 'text-zinc-400'
           } rounded-full  hover:bg-primary-100 hover:text-primary-200`}
           href={item.path}
           key={index}

@@ -4,7 +4,7 @@ import Sidebar from '@/components/Universal/Sidebar'
 
 export default function LayoutUniversal({ children }) {
   return (
-    <main className="min-h-screen bg-zinc-100/100 dark:bg-dark-200 pt-[56px] pb-36 md:pb-0 ">
+    <main className="min-h-screen bg-zinc-100/100 pt-[56px] pb-36 md:pb-0 ">
       <Header />
       <Sidebar />
 

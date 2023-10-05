@@ -57,7 +57,7 @@ export default function Home() {
             }}
             key={index}
           >
-            <div className="bg-white rounded-md shadow-sm p-6 flex flex-col gap-10 hover:scale-105 duration-300 cursor-pointer">
+            <div className="bg-white rounded-md shadow-sm p-6 flex flex-col gap-10 md:hover:scale-105 duration-300 cursor-pointer">
               <div className=" h-36 md:h-48 w-full">
                 <Image className="h-full w-full" src={item.image} />
               </div>
