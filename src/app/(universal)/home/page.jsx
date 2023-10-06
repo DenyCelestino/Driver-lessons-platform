@@ -44,7 +44,7 @@ export default function Home() {
           <span className="text-xs">Hello Delfim, Welcome back!</span>
         </div>
       </div>
-      <h1 className="text-lg md:text-2xl">Choose your destiny</h1>
+      <h1 className="text-lg md:text-2xl">Choose your destiny 😊</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-y-3 md:gap-y-0  md:gap-x-6">
         {Windows.map((item, index) => (
